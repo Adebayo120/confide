@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.we{
+    height: 100vh;
+    background-image: url("img/landing.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.line{
+    border-style:solid;
+    border-bottom-width: 0px;
+    border-top-width: 5px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    margin-top: 5%;
+}
+.drop{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.down{
+    margin-bottom: 15%;
+    transform: translateY(105%);
+}
+.move{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+#c{
+    color: #6B3870;
+}
+#c:hover{
+    color: green;
+    text-decoration: none;
+}
+#o{
+    color: #6B3870;
+}
+#o:hover{
+    color: green;
+    text-decoration: none;
+}
+#l{
+    color: #6B3870;
+}
+#l:hover{
+    color: green;
+    text-decoration: none;
+}
+#a{
+    color: #6B3870;
+}
+#a:hover{
+    color: green;
+    text-decoration: none;
+}
+#r{
+    color: #6B3870;
+}
+#r:hover{
+    color: green;
+    text-decoration: none;
+}
+.underline:focus{
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    border-bottom-width: 5px;
+}
+ol{
+    list-style-position: hanging;
+}
